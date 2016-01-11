@@ -10,27 +10,29 @@ public class PageBean {
 	/**
 	 * 翻页起始位置
 	 */
-	private int pointerStart;
+	private int pageMax;
 	
 	/**
 	 * 一页显示的数据条数
 	 */
-	private int pageSize;
+	private int pageMin;
 
-	public int getPointerStart() {
-		return pointerStart;
+	public int getPageMax() {
+		return pageMax;
 	}
 
-	public void setPointerStart(int pointerStart) {
-		this.pointerStart = pointerStart;
+	public void setPageMax(int pageMax) {
+		this.pageMax = pageMax;
 	}
 
-	public int getPageSize() {
-		return pageSize;
+	public int getPageMin() {
+		return pageMin;
 	}
 
-	public void setPageSize(int pageSize) {
-		this.pageSize = pageSize;
+	public void setPageMin(int pageMin) {
+		this.pageMin = pageMin;
 	}
+
+
 	
 }
