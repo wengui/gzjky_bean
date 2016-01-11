@@ -10,12 +10,12 @@ public class QueryBloodPressureOutputBean {
 	/**
 	 * 设备类型
 	 */
-	public String device_version;
+	public String deviceVersion;
 	
 	/**
 	 * 测压时间
 	 */
-	public String take_time;
+	public String takeTime;
 	
 	/**
 	 * 收缩压
@@ -30,8 +30,7 @@ public class QueryBloodPressureOutputBean {
 	/**
 	 * 脉率
 	 */
-	public String pressure_value;
-
+	public String pressureValue;
 
 	public String getDeviceSerialId() {
 		return deviceSerialId;
@@ -41,20 +40,20 @@ public class QueryBloodPressureOutputBean {
 		this.deviceSerialId = deviceSerialId;
 	}
 
-	public String getDevice_version() {
-		return device_version;
+	public String getDeviceVersion() {
+		return deviceVersion;
 	}
 
-	public void setDevice_version(String device_version) {
-		this.device_version = device_version;
+	public void setDeviceVersion(String deviceVersion) {
+		this.deviceVersion = deviceVersion;
 	}
 
-	public String getTake_time() {
-		return take_time;
+	public String getTakeTime() {
+		return takeTime;
 	}
 
-	public void setTake_time(String take_time) {
-		this.take_time = take_time;
+	public void setTakeTime(String takeTime) {
+		this.takeTime = takeTime;
 	}
 
 	public String getShrink() {
@@ -73,12 +72,12 @@ public class QueryBloodPressureOutputBean {
 		this.diastole = diastole;
 	}
 
-	public String getPressure_value() {
-		return pressure_value;
+	public String getPressureValue() {
+		return pressureValue;
 	}
 
-	public void setPressure_value(String pressure_value) {
-		this.pressure_value = pressure_value;
+	public void setPressureValue(String pressureValue) {
+		this.pressureValue = pressureValue;
 	}
 
 }
