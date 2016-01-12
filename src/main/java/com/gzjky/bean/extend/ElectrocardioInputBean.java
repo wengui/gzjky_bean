@@ -1,11 +1,11 @@
 package com.gzjky.bean.extend;
 
 /**
- * 血压查询参数入力Bean
+ * 心电查询参数Bean
  * @author yuting
  *
  */
-public class QueryBloodPressureInputBean extends PageBean {
+public class ElectrocardioInputBean extends PageBean {
 
 	/**
 	 * 开始时间
@@ -20,7 +20,7 @@ public class QueryBloodPressureInputBean extends PageBean {
 	/**
 	 * 历史或者告警
 	 */
-	private String bloodType;
+	private String heartType;
 	
 	/**
 	 * 患者ID
@@ -43,12 +43,12 @@ public class QueryBloodPressureInputBean extends PageBean {
 		this.endDate = endDate;
 	}
 
-	public String getBloodType() {
-		return bloodType;
+	public String getHeartType() {
+		return heartType;
 	}
 
-	public void setBloodType(String bloodType) {
-		this.bloodType = bloodType;
+	public void setHeartType(String heartType) {
+		this.heartType = heartType;
 	}
 
 	public String getPatientId() {
