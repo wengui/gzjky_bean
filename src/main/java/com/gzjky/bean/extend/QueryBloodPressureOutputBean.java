@@ -1,6 +1,11 @@
 package com.gzjky.bean.extend;
 
-public class QueryBloodPressureOutputBean {
+public class QueryBloodPressureOutputBean extends PageOutputBean{
+	
+	/**
+	 * 血压历史ID
+	 */
+	public String id;
 	
 	/**
 	 * 设备编号
@@ -31,6 +36,25 @@ public class QueryBloodPressureOutputBean {
 	 * 脉率
 	 */
 	public String pressureValue;
+	
+	/**
+	 * 状态
+	 */
+	public String state;
+	
+	/**
+	 * 备注
+	 */
+	public String feedback;
+
+	
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
 
 	public String getDeviceSerialId() {
 		return deviceSerialId;
@@ -79,5 +103,22 @@ public class QueryBloodPressureOutputBean {
 	public void setPressureValue(String pressureValue) {
 		this.pressureValue = pressureValue;
 	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public String getFeedback() {
+		return feedback;
+	}
+
+	public void setFeedback(String feedback) {
+		this.feedback = feedback;
+	}
+	
 
 }
