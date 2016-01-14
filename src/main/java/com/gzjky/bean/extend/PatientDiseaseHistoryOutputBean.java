@@ -7,6 +7,7 @@ package com.gzjky.bean.extend;
  */
 public class PatientDiseaseHistoryOutputBean extends PageOutputBean{
 	
+	private String id;
 	/**
 	 * 疾病名
 	 */
@@ -41,6 +42,16 @@ public class PatientDiseaseHistoryOutputBean extends PageOutputBean{
 	 * 
 	 */
 	private String diseaseCode;
+	
+	
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
 
 	public String getDiseaseName() {
 		return diseaseName;
