@@ -117,7 +117,10 @@ public class PatientInfoOutputBean {
      * 工作年限
      */
     private String workyears;
-
+    
+    /**
+     * 是否是军人
+     */
     private String issoldier;
 
     private String militarytime;
@@ -126,6 +129,9 @@ public class PatientInfoOutputBean {
 
     private String typecode;
 
+    /**
+     * 政治面貌
+     */
     private String political;
 
     private String joinparty;
@@ -136,18 +142,30 @@ public class PatientInfoOutputBean {
 
     private String city;
 
+    /**
+     * 家庭地址
+     */
     private String homeaddress;
 
     private String nativeplace;
 
     private String worktime;
 
+    /**
+     * 学历
+     */
     private String education;
 
+    /**
+     * 户籍类型
+     */
     private String householdtype;
 
     private String membertype;
 
+    /**
+     * 薪酬
+     */
     private String annualincome;
 
     private String regdatetime;
@@ -156,6 +174,9 @@ public class PatientInfoOutputBean {
 
     private String isdelete;
 
+    /**
+     * 头像
+     */
     private String patientimage;
 
     private String disabilityinfo;
@@ -164,8 +185,14 @@ public class PatientInfoOutputBean {
 
     private String familygenetichistory;
 
+    /**
+     * 公司名称
+     */
     private String companyname;
 
+    /**
+     * 地址
+     */
     private String companyaddress;
 
 	public String getId() {
