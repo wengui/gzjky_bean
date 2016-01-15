@@ -9,6 +9,8 @@ public class PatientNowComplicationsMaster {
 
     private String diseaseidvalue;
 
+    private String comment;
+
     public Integer getId() {
         return id;
     }
@@ -39,5 +41,13 @@ public class PatientNowComplicationsMaster {
 
     public void setDiseaseidvalue(String diseaseidvalue) {
         this.diseaseidvalue = diseaseidvalue;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
     }
 }
