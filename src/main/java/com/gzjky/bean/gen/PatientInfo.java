@@ -1,6 +1,6 @@
 package com.gzjky.bean.gen;
 
-import org.joda.time.DateTime;
+import java.util.Date;
 
 public class PatientInfo {
     private Integer id;
@@ -15,7 +15,7 @@ public class PatientInfo {
 
     private String patientsex;
 
-    private DateTime patientbirthday;
+    private Date patientbirthday;
 
     private Integer partnersid;
 
@@ -51,7 +51,7 @@ public class PatientInfo {
 
     private Boolean issoldier;
 
-    private DateTime militarytime;
+    private Date militarytime;
 
     private String positioncode;
 
@@ -59,7 +59,7 @@ public class PatientInfo {
 
     private String political;
 
-    private DateTime joinparty;
+    private Date joinparty;
 
     private String countries;
 
@@ -71,7 +71,7 @@ public class PatientInfo {
 
     private String nativeplace;
 
-    private DateTime worktime;
+    private Date worktime;
 
     private String education;
 
@@ -81,7 +81,7 @@ public class PatientInfo {
 
     private String annualincome;
 
-    private DateTime regdatetime;
+    private Date regdatetime;
 
     private Boolean ischeck;
 
@@ -147,11 +147,11 @@ public class PatientInfo {
         this.patientsex = patientsex;
     }
 
-    public DateTime getPatientbirthday() {
+    public Date getPatientbirthday() {
         return patientbirthday;
     }
 
-    public void setPatientbirthday(DateTime patientbirthday) {
+    public void setPatientbirthday(Date patientbirthday) {
         this.patientbirthday = patientbirthday;
     }
 
@@ -291,11 +291,11 @@ public class PatientInfo {
         this.issoldier = issoldier;
     }
 
-    public DateTime getMilitarytime() {
+    public Date getMilitarytime() {
         return militarytime;
     }
 
-    public void setMilitarytime(DateTime militarytime) {
+    public void setMilitarytime(Date militarytime) {
         this.militarytime = militarytime;
     }
 
@@ -323,11 +323,11 @@ public class PatientInfo {
         this.political = political;
     }
 
-    public DateTime getJoinparty() {
+    public Date getJoinparty() {
         return joinparty;
     }
 
-    public void setJoinparty(DateTime joinparty) {
+    public void setJoinparty(Date joinparty) {
         this.joinparty = joinparty;
     }
 
@@ -371,11 +371,11 @@ public class PatientInfo {
         this.nativeplace = nativeplace;
     }
 
-    public DateTime getWorktime() {
+    public Date getWorktime() {
         return worktime;
     }
 
-    public void setWorktime(DateTime worktime) {
+    public void setWorktime(Date worktime) {
         this.worktime = worktime;
     }
 
@@ -411,11 +411,11 @@ public class PatientInfo {
         this.annualincome = annualincome;
     }
 
-    public DateTime getRegdatetime() {
+    public Date getRegdatetime() {
         return regdatetime;
     }
 
-    public void setRegdatetime(DateTime regdatetime) {
+    public void setRegdatetime(Date regdatetime) {
         this.regdatetime = regdatetime;
     }
 
