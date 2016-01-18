@@ -31,7 +31,7 @@ public class PatientInfoOutputBean {
     /**
      * 患者性别
      */
-    private String patientsex;
+    private String dictSex;
 
     /**
      * 患者生日
@@ -46,7 +46,7 @@ public class PatientInfoOutputBean {
     /**
      * 证件类型
      */
-    private String cardtype;
+    private String certiType;
 
     /**
      * 证件号码
@@ -66,12 +66,12 @@ public class PatientInfoOutputBean {
     /**
      * 婚姻情况
      */
-    private String marriagestatus;
+    private String maritalStatusDict;
 
     /**
      * 民族
      */
-    private String patientnational;
+    private String nationalityCodeDict;
 
     /**
      * 是否残疾
@@ -116,7 +116,7 @@ public class PatientInfoOutputBean {
     /**
      * 工作年限
      */
-    private String workyears;
+    private String workingyear;
     
     /**
      * 是否是军人
@@ -132,7 +132,7 @@ public class PatientInfoOutputBean {
     /**
      * 政治面貌
      */
-    private String political;
+    private String politicalAffiliatio;
 
     private String joinparty;
 
@@ -154,19 +154,19 @@ public class PatientInfoOutputBean {
     /**
      * 学历
      */
-    private String education;
+    private String userAcademic;
 
     /**
      * 户籍类型
      */
     private String householdtype;
 
-    private String membertype;
+    private String censusRegDict;
 
     /**
      * 薪酬
      */
-    private String annualincome;
+    private String moneyForYear;
 
     private String regdatetime;
 
@@ -235,12 +235,14 @@ public class PatientInfoOutputBean {
 		this.patientname = patientname;
 	}
 
-	public String getPatientsex() {
-		return patientsex;
+
+
+	public String getDictSex() {
+		return dictSex;
 	}
 
-	public void setPatientsex(String patientsex) {
-		this.patientsex = patientsex;
+	public void setDictSex(String dictSex) {
+		this.dictSex = dictSex;
 	}
 
 	public String getPatientbirthday() {
@@ -257,14 +259,6 @@ public class PatientInfoOutputBean {
 
 	public void setPartnersid(String partnersid) {
 		this.partnersid = partnersid;
-	}
-
-	public String getCardtype() {
-		return cardtype;
-	}
-
-	public void setCardtype(String cardtype) {
-		this.cardtype = cardtype;
 	}
 
 	public String getCardnum() {
@@ -289,22 +283,6 @@ public class PatientInfoOutputBean {
 
 	public void setPatientphone(String patientphone) {
 		this.patientphone = patientphone;
-	}
-
-	public String getMarriagestatus() {
-		return marriagestatus;
-	}
-
-	public void setMarriagestatus(String marriagestatus) {
-		this.marriagestatus = marriagestatus;
-	}
-
-	public String getPatientnational() {
-		return patientnational;
-	}
-
-	public void setPatientnational(String patientnational) {
-		this.patientnational = patientnational;
 	}
 
 	public String getIsdisability() {
@@ -371,14 +349,6 @@ public class PatientInfoOutputBean {
 		this.telephone = telephone;
 	}
 
-	public String getWorkyears() {
-		return workyears;
-	}
-
-	public void setWorkyears(String workyears) {
-		this.workyears = workyears;
-	}
-
 	public String getIssoldier() {
 		return issoldier;
 	}
@@ -409,14 +379,6 @@ public class PatientInfoOutputBean {
 
 	public void setTypecode(String typecode) {
 		this.typecode = typecode;
-	}
-
-	public String getPolitical() {
-		return political;
-	}
-
-	public void setPolitical(String political) {
-		this.political = political;
 	}
 
 	public String getJoinparty() {
@@ -475,36 +437,12 @@ public class PatientInfoOutputBean {
 		this.worktime = worktime;
 	}
 
-	public String getEducation() {
-		return education;
-	}
-
-	public void setEducation(String education) {
-		this.education = education;
-	}
-
 	public String getHouseholdtype() {
 		return householdtype;
 	}
 
 	public void setHouseholdtype(String householdtype) {
 		this.householdtype = householdtype;
-	}
-
-	public String getMembertype() {
-		return membertype;
-	}
-
-	public void setMembertype(String membertype) {
-		this.membertype = membertype;
-	}
-
-	public String getAnnualincome() {
-		return annualincome;
-	}
-
-	public void setAnnualincome(String annualincome) {
-		this.annualincome = annualincome;
 	}
 
 	public String getRegdatetime() {
@@ -577,6 +515,70 @@ public class PatientInfoOutputBean {
 
 	public void setCompanyaddress(String companyaddress) {
 		this.companyaddress = companyaddress;
+	}
+
+	public String getCertiType() {
+		return certiType;
+	}
+
+	public void setCertiType(String certiType) {
+		this.certiType = certiType;
+	}
+
+	public String getMaritalStatusDict() {
+		return maritalStatusDict;
+	}
+
+	public void setMaritalStatusDict(String maritalStatusDict) {
+		this.maritalStatusDict = maritalStatusDict;
+	}
+
+	public String getNationalityCodeDict() {
+		return nationalityCodeDict;
+	}
+
+	public void setNationalityCodeDict(String nationalityCodeDict) {
+		this.nationalityCodeDict = nationalityCodeDict;
+	}
+
+	public String getWorkingyear() {
+		return workingyear;
+	}
+
+	public void setWorkingyear(String workingyear) {
+		this.workingyear = workingyear;
+	}
+
+	public String getPoliticalAffiliatio() {
+		return politicalAffiliatio;
+	}
+
+	public void setPoliticalAffiliatio(String politicalAffiliatio) {
+		this.politicalAffiliatio = politicalAffiliatio;
+	}
+
+	public String getUserAcademic() {
+		return userAcademic;
+	}
+
+	public void setUserAcademic(String userAcademic) {
+		this.userAcademic = userAcademic;
+	}
+
+	public String getCensusRegDict() {
+		return censusRegDict;
+	}
+
+	public void setCensusRegDict(String censusRegDict) {
+		this.censusRegDict = censusRegDict;
+	}
+
+	public String getMoneyForYear() {
+		return moneyForYear;
+	}
+
+	public void setMoneyForYear(String moneyForYear) {
+		this.moneyForYear = moneyForYear;
 	}
 
 }
