@@ -19,15 +19,15 @@ public class PatientLivingHabitsOutputBean {
 	/**
 	 * 血型
 	 */
-	private String bloodType;
+	private String aboBloodTypeDict;
 	/**
 	 * 体重
 	 */
-	private String weight;
+	private String Weight;
 	/**
 	 * 腰围
 	 */
-	private String waistline;
+	private String Waistline;
 	/**
 	 * 吸烟年限
 	 */
@@ -35,32 +35,32 @@ public class PatientLivingHabitsOutputBean {
 	/**
 	 * 吸烟频次
 	 */
-	private String smokingRate;
+	private String SmokeTime;
 	/**
 	 * 饮酒频次
 	 */
-	private String drinkingRate;
+	private String drinkFreqCodeDict;
 	/**
 	 * 饮酒类型
 	 */
-	private String drinkingType;
+	private String alcoholTypeDict;
 	/**
 	 * 运动频次
 	 */
-	private String sportRate;
+	private String SportNum;
 	/**
 	 * 运动时长
 	 */
-	private String sportTime;
+	private String SportTime;
 	/**
 	 * 睡眠时长
 	 */
-	private String sleepTime;
+	private String SleepTime;
 	
 	/**
 	 * 降压药
 	 */
-	private String hypotensor;
+	private String Hypotensor;
 
 	public String getWorkType() {
 		return workType;
@@ -78,28 +78,28 @@ public class PatientLivingHabitsOutputBean {
 		this.workPressure = workPressure;
 	}
 
-	public String getBloodType() {
-		return bloodType;
+	public String getAboBloodTypeDict() {
+		return aboBloodTypeDict;
 	}
 
-	public void setBloodType(String bloodType) {
-		this.bloodType = bloodType;
+	public void setAboBloodTypeDict(String aboBloodTypeDict) {
+		this.aboBloodTypeDict = aboBloodTypeDict;
 	}
 
 	public String getWeight() {
-		return weight;
+		return Weight;
 	}
 
 	public void setWeight(String weight) {
-		this.weight = weight;
+		Weight = weight;
 	}
 
 	public String getWaistline() {
-		return waistline;
+		return Waistline;
 	}
 
 	public void setWaistline(String waistline) {
-		this.waistline = waistline;
+		Waistline = waistline;
 	}
 
 	public String getSmokingTime() {
@@ -110,60 +110,62 @@ public class PatientLivingHabitsOutputBean {
 		this.smokingTime = smokingTime;
 	}
 
-	public String getSmokingRate() {
-		return smokingRate;
+	public String getSmokeTime() {
+		return SmokeTime;
 	}
 
-	public void setSmokingRate(String smokingRate) {
-		this.smokingRate = smokingRate;
+	public void setSmokeTime(String smokeTime) {
+		SmokeTime = smokeTime;
 	}
 
-	public String getDrinkingRate() {
-		return drinkingRate;
+	public String getDrinkFreqCodeDict() {
+		return drinkFreqCodeDict;
 	}
 
-	public void setDrinkingRate(String drinkingRate) {
-		this.drinkingRate = drinkingRate;
+	public void setDrinkFreqCodeDict(String drinkFreqCodeDict) {
+		this.drinkFreqCodeDict = drinkFreqCodeDict;
 	}
 
-	public String getDrinkingType() {
-		return drinkingType;
+	public String getAlcoholTypeDict() {
+		return alcoholTypeDict;
 	}
 
-	public void setDrinkingType(String drinkingType) {
-		this.drinkingType = drinkingType;
+	public void setAlcoholTypeDict(String alcoholTypeDict) {
+		this.alcoholTypeDict = alcoholTypeDict;
 	}
 
-	public String getSportRate() {
-		return sportRate;
+	public String getSportNum() {
+		return SportNum;
 	}
 
-	public void setSportRate(String sportRate) {
-		this.sportRate = sportRate;
+	public void setSportNum(String sportNum) {
+		SportNum = sportNum;
 	}
 
 	public String getSportTime() {
-		return sportTime;
+		return SportTime;
 	}
 
 	public void setSportTime(String sportTime) {
-		this.sportTime = sportTime;
+		SportTime = sportTime;
 	}
 
 	public String getSleepTime() {
-		return sleepTime;
+		return SleepTime;
 	}
 
 	public void setSleepTime(String sleepTime) {
-		this.sleepTime = sleepTime;
+		SleepTime = sleepTime;
 	}
 
 	public String getHypotensor() {
-		return hypotensor;
+		return Hypotensor;
 	}
 
 	public void setHypotensor(String hypotensor) {
-		this.hypotensor = hypotensor;
+		Hypotensor = hypotensor;
 	}
+
+
 
 }
