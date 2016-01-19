@@ -3,7 +3,7 @@ package com.gzjky.bean.gen;
 public class FamilyPhone {
     private Integer id;
 
-    private String patientid;
+    private Integer patientid;
 
     private String name;
 
@@ -29,11 +29,11 @@ public class FamilyPhone {
         this.id = id;
     }
 
-    public String getPatientid() {
+    public Integer getPatientid() {
         return patientid;
     }
 
-    public void setPatientid(String patientid) {
+    public void setPatientid(Integer patientid) {
         this.patientid = patientid;
     }
 
