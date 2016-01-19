@@ -27,6 +27,8 @@ public class MemberConsultation {
 
     private Integer patientid;
 
+    private String symptomname;
+
     public Integer getId() {
         return id;
     }
@@ -121,5 +123,13 @@ public class MemberConsultation {
 
     public void setPatientid(Integer patientid) {
         this.patientid = patientid;
+    }
+
+    public String getSymptomname() {
+        return symptomname;
+    }
+
+    public void setSymptomname(String symptomname) {
+        this.symptomname = symptomname;
     }
 }
