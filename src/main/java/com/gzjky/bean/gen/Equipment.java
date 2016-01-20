@@ -1,5 +1,7 @@
 package com.gzjky.bean.gen;
 
+import java.util.Date;
+
 import org.joda.time.DateTime;
 
 public class Equipment {
@@ -29,7 +31,7 @@ public class Equipment {
 
     private Integer belonghospitalid;
 
-    private DateTime createdon;
+    private Date createdon;
 
     public Integer getId() {
         return id;
@@ -135,11 +137,11 @@ public class Equipment {
         this.belonghospitalid = belonghospitalid;
     }
 
-    public DateTime getCreatedon() {
+    public Date getCreatedon() {
         return createdon;
     }
 
-    public void setCreatedon(DateTime createdon) {
+    public void setCreatedon(Date createdon) {
         this.createdon = createdon;
     }
 }
