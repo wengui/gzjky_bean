@@ -1,6 +1,8 @@
 package com.gzjky.bean.gen;
 
 import java.math.BigDecimal;
+import java.util.Date;
+
 import org.joda.time.DateTime;
 
 public class WeeklyReports {
@@ -72,9 +74,9 @@ public class WeeklyReports {
 
     private String status;
 
-    private DateTime createdon;
+    private Date createdon;
 
-    private DateTime savedon;
+    private Date savedon;
 
     private Integer patientid;
 
@@ -350,19 +352,19 @@ public class WeeklyReports {
         this.status = status;
     }
 
-    public DateTime getCreatedon() {
+    public Date getCreatedon() {
         return createdon;
     }
 
-    public void setCreatedon(DateTime createdon) {
+    public void setCreatedon(Date createdon) {
         this.createdon = createdon;
     }
 
-    public DateTime getSavedon() {
+    public Date getSavedon() {
         return savedon;
     }
 
-    public void setSavedon(DateTime savedon) {
+    public void setSavedon(Date savedon) {
         this.savedon = savedon;
     }
 

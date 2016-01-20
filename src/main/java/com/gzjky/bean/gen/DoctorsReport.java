@@ -9,6 +9,8 @@ public class DoctorsReport {
 
     private String reporttype;
 
+    private Integer rpid;
+    
     private DateTime createdon;
 
     private String creator;
@@ -38,8 +40,16 @@ public class DoctorsReport {
     public void setReporttype(String reporttype) {
         this.reporttype = reporttype;
     }
+    
+    public Integer getRpid() {
+		return rpid;
+	}
 
-    public DateTime getCreatedon() {
+	public void setRpid(Integer rpid) {
+		this.rpid = rpid;
+	}
+
+	public DateTime getCreatedon() {
         return createdon;
     }
 
