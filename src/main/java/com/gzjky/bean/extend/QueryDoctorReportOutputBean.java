@@ -87,6 +87,8 @@ public class QueryDoctorReportOutputBean extends PageOutputBean{
     private String doctorName;
     
     private String hospitalName;
+    
+    private String userStatus;
 
 	public Integer getPatientId() {
 		return patientId;
@@ -423,6 +425,12 @@ public class QueryDoctorReportOutputBean extends PageOutputBean{
 	public void setHospitalName(String hospitalName) {
 		this.hospitalName = hospitalName;
 	}
-    
-    
+
+	public String getUserStatus() {
+		return userStatus;
+	}
+
+	public void setUserStatus(String userStatus) {
+		this.userStatus = userStatus;
+	}
 }
