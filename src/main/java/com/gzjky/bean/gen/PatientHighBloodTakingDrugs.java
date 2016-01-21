@@ -1,6 +1,5 @@
 package com.gzjky.bean.gen;
 
-import org.joda.time.DateTime;
 
 public class PatientHighBloodTakingDrugs {
     private Integer id;
@@ -11,7 +10,7 @@ public class PatientHighBloodTakingDrugs {
 
     private String dose;
 
-    private DateTime duration;
+    private String duration;
 
     public Integer getId() {
         return id;
@@ -45,11 +44,13 @@ public class PatientHighBloodTakingDrugs {
         this.dose = dose;
     }
 
-    public DateTime getDuration() {
-        return duration;
-    }
+	public String getDuration() {
+		return duration;
+	}
 
-    public void setDuration(DateTime duration) {
-        this.duration = duration;
-    }
+	public void setDuration(String duration) {
+		this.duration = duration;
+	}
+
+    
 }
