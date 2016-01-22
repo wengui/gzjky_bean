@@ -38,6 +38,10 @@ public class QueryBloodPressureOutputBean extends PageOutputBean{
 	public String pressureValue;
 	
 	/**
+	 * 心率
+	 */
+	public String heartRate;
+	/**
 	 * 状态
 	 */
 	public String state;
@@ -119,6 +123,13 @@ public class QueryBloodPressureOutputBean extends PageOutputBean{
 	public void setFeedback(String feedback) {
 		this.feedback = feedback;
 	}
-	
+
+	public String getHeartRate() {
+		return heartRate;
+	}
+
+	public void setHeartRate(String heartRate) {
+		this.heartRate = heartRate;
+	}
 
 }
