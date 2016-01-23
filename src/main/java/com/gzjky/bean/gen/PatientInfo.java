@@ -87,7 +87,7 @@ public class PatientInfo {
 
     private Boolean isdelete;
 
-    private String patientimage;
+    private byte[] patientimage;
 
     private String disabilityinfo;
 
@@ -435,11 +435,11 @@ public class PatientInfo {
         this.isdelete = isdelete;
     }
 
-    public String getPatientimage() {
+    public byte[] getPatientimage() {
         return patientimage;
     }
 
-    public void setPatientimage(String patientimage) {
+    public void setPatientimage(byte[] patientimage) {
         this.patientimage = patientimage;
     }
 
