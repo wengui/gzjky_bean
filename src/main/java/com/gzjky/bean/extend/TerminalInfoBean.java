@@ -21,7 +21,15 @@ public class TerminalInfoBean {
 	private String blood_pressure_alert_diastole_threshold_top;
 	// 舒张压下限值
 	private String blood_pressure_alert_diastole_threshold_bottom;
-
+	
+	
+	private String setting_flag_simcard;
+	
+	private String setting_flag_heartrate_alert;
+	private String setting_flag_blood_pressure_alert;
+	private String setting_flag_take_medicine_notice;
+	private String setting_flag_test_blood_pressure_notice;
+	private String setting_flag_send_data_interval;
 	public String getSim1() {
 		return sim1;
 	}
@@ -101,6 +109,54 @@ public class TerminalInfoBean {
 	public void setBlood_pressure_alert_diastole_threshold_bottom(
 			String blood_pressure_alert_diastole_threshold_bottom) {
 		this.blood_pressure_alert_diastole_threshold_bottom = blood_pressure_alert_diastole_threshold_bottom;
+	}
+
+	public String getSetting_flag_simcard() {
+		return setting_flag_simcard;
+	}
+
+	public void setSetting_flag_simcard(String setting_flag_simcard) {
+		this.setting_flag_simcard = setting_flag_simcard;
+	}
+
+	public String getSetting_flag_heartrate_alert() {
+		return setting_flag_heartrate_alert;
+	}
+
+	public void setSetting_flag_heartrate_alert(String setting_flag_heartrate_alert) {
+		this.setting_flag_heartrate_alert = setting_flag_heartrate_alert;
+	}
+
+	public String getSetting_flag_blood_pressure_alert() {
+		return setting_flag_blood_pressure_alert;
+	}
+
+	public void setSetting_flag_blood_pressure_alert(String setting_flag_blood_pressure_alert) {
+		this.setting_flag_blood_pressure_alert = setting_flag_blood_pressure_alert;
+	}
+
+	public String getSetting_flag_take_medicine_notice() {
+		return setting_flag_take_medicine_notice;
+	}
+
+	public void setSetting_flag_take_medicine_notice(String setting_flag_take_medicine_notice) {
+		this.setting_flag_take_medicine_notice = setting_flag_take_medicine_notice;
+	}
+
+	public String getSetting_flag_test_blood_pressure_notice() {
+		return setting_flag_test_blood_pressure_notice;
+	}
+
+	public void setSetting_flag_test_blood_pressure_notice(String setting_flag_test_blood_pressure_notice) {
+		this.setting_flag_test_blood_pressure_notice = setting_flag_test_blood_pressure_notice;
+	}
+
+	public String getSetting_flag_send_data_interval() {
+		return setting_flag_send_data_interval;
+	}
+
+	public void setSetting_flag_send_data_interval(String setting_flag_send_data_interval) {
+		this.setting_flag_send_data_interval = setting_flag_send_data_interval;
 	}
 
 
