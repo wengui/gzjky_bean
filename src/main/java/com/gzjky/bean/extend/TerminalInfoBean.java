@@ -21,21 +21,6 @@ public class TerminalInfoBean {
 	private String blood_pressure_alert_diastole_threshold_top;
 	// 舒张压下限值
 	private String blood_pressure_alert_diastole_threshold_bottom;
-	// 用药提醒小时
-	private String hour;
-	// 用药提醒分钟
-	private String minute;
-	// 用药提醒提醒周期
-	private String notice_interval;
-	// 用药提醒提醒内容
-	private String note;
-
-	// 测压提醒开始时间
-	private String start_time;
-	// 测压提醒结束时间
-	private String end_time;
-	// 测压提醒提醒周期
-	private String notice_intervals;
 
 	public String getSim1() {
 		return sim1;
@@ -118,60 +103,5 @@ public class TerminalInfoBean {
 		this.blood_pressure_alert_diastole_threshold_bottom = blood_pressure_alert_diastole_threshold_bottom;
 	}
 
-	public String getHour() {
-		return hour;
-	}
-
-	public void setHour(String hour) {
-		this.hour = hour;
-	}
-
-	public String getMinute() {
-		return minute;
-	}
-
-	public void setMinute(String minute) {
-		this.minute = minute;
-	}
-
-	public String getNotice_interval() {
-		return notice_interval;
-	}
-
-	public void setNotice_interval(String notice_interval) {
-		this.notice_interval = notice_interval;
-	}
-
-	public String getNote() {
-		return note;
-	}
-
-	public void setNote(String note) {
-		this.note = note;
-	}
-
-	public String getStart_time() {
-		return start_time;
-	}
-
-	public void setStart_time(String start_time) {
-		this.start_time = start_time;
-	}
-
-	public String getEnd_time() {
-		return end_time;
-	}
-
-	public void setEnd_time(String end_time) {
-		this.end_time = end_time;
-	}
-
-	public String getNotice_intervals() {
-		return notice_intervals;
-	}
-
-	public void setNotice_intervals(String notice_intervals) {
-		this.notice_intervals = notice_intervals;
-	}
 
 }
