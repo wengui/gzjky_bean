@@ -16,6 +16,9 @@ public class EquipmentAndPatient {
     private DateTime createdon;
 
     private String deleteor;
+    
+    private String nickname;
+    
 
     private DateTime deleteon;
 
@@ -92,4 +95,13 @@ public class EquipmentAndPatient {
     public void setIsdelete(Boolean isdelete) {
         this.isdelete = isdelete;
     }
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
+    
 }

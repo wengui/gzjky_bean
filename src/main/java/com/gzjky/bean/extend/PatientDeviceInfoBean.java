@@ -5,6 +5,9 @@ public class PatientDeviceInfoBean {
 	
 	//关系表ID
 	private String epId;
+	
+	//设备别名
+	private String nickname;
 	//设备ID
 	private String Id;
 	//阈值表ID
@@ -123,6 +126,14 @@ public class PatientDeviceInfoBean {
 
 	public void setfId(String fId) {
 		this.fId = fId;
+	}
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
 	}
 	
 
