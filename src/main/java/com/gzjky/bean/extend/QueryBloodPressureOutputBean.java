@@ -50,6 +50,11 @@ public class QueryBloodPressureOutputBean extends PageOutputBean{
 	 * 备注
 	 */
 	public String feedback;
+	
+	/**
+	 * 设备昵称
+	 */
+	public String nickname;
 
 	
 	public String getId() {
@@ -130,6 +135,14 @@ public class QueryBloodPressureOutputBean extends PageOutputBean{
 
 	public void setHeartRate(String heartRate) {
 		this.heartRate = heartRate;
+	}
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
 	}
 
 }

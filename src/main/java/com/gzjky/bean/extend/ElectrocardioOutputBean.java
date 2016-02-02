@@ -41,6 +41,11 @@ public class ElectrocardioOutputBean extends PageOutputBean {
 	 * 备注
 	 */
 	private String feedback;
+	
+	/**
+	 * 设备昵称
+	 */
+	private String nickname;
 
 	public String getId() {
 		return id;
@@ -105,4 +110,13 @@ public class ElectrocardioOutputBean extends PageOutputBean {
 	public void setFeedback(String feedback) {
 		this.feedback = feedback;
 	}
+
+	public String getNickname() {
+		return nickname;
+	}
+
+	public void setNickname(String nickname) {
+		this.nickname = nickname;
+	}
+	
 }
