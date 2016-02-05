@@ -8,6 +8,8 @@ public class PatientDeviceInfoBean {
 	
 	//设备别名
 	private String nickname;
+	//设备图片
+	private String image;
 	//设备ID
 	private String Id;
 	//阈值表ID
@@ -135,6 +137,14 @@ public class PatientDeviceInfoBean {
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
-	
 
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image = image;
+	}
+	
+	
 }
